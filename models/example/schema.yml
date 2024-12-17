@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: items
+    description: "A modeled table from SAP data"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:
+          - not_null
